@@ -523,4 +523,4 @@ public constant xtigrEncodeUTF8 = define_c_func(tigr,"+tigrEncodeUTf8",{C_STRING
 public function tigrEncodeUTF8(sequence text,atom cp)
 	return c_func(xtigrEncodeUTF8,{text,cp})
 end function
-­8.40
+Â­8.40
