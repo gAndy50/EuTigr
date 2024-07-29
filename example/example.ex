@@ -28,4 +28,4 @@ procedure main()
 end procedure
 
 main()
-­27.1
+Â­27.1
