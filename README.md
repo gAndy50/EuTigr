@@ -42,4 +42,6 @@ procedure main()
 	tigrFree(screen)
 	
 end procedure
+
+main()
 ```
