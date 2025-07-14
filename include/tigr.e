@@ -1,7 +1,7 @@
 --EuTigr
 --Written by Andy P.
 --Icy Viking Games
---Copyright (c) 2024
+--Copyright (c) 2025
 --Wrapper for Tigr Library
 --Needs 64-bit version of Euphoria
 --Tigr Version 2.0.0
