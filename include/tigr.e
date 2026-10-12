@@ -1,7 +1,7 @@
 --EuTigr
 --Written by Andy P.
 --Icy Viking Games
---Copyright (c) 2025
+--Copyright (c) 2024
 --Wrapper for Tigr Library
 --Needs 64-bit version of Euphoria
 --Tigr Version 2.0.0
@@ -523,4 +523,17 @@ public constant xtigrEncodeUTF8 = define_c_func(tigr,"+tigrEncodeUTf8",{C_STRING
 public function tigrEncodeUTF8(sequence text,atom cp)
 	return c_func(xtigrEncodeUTF8,{text,cp})
 end function
-Â­8.40
+
+public function tigrRGB(atom r,atom g,atom b)
+	return {r,g,b,#FF}
+end function
+
+public function tigrRGBA(atom r,atom g,atom b,atom a)
+	return {r,g,b,a}
+end function
+
+--use built-in tfont
+
+public atom tfont_var_addr = define_c_var(tigr,"tfont")
+public atom tfont = peek_pointer(tfont_var_addr)
+­368.26
