@@ -1,7 +1,7 @@
 --EuTigr
 --Written by Andy P.
 --Icy Viking Games
---Copyright (c) 2024
+--Copyright (c) 2026
 --Wrapper for Tigr Library
 --Needs 64-bit version of Euphoria
 --Tigr Version 2.0.0
@@ -536,4 +536,4 @@ end function
 
 public atom tfont_var_addr = define_c_var(tigr,"tfont")
 public atom tfont = peek_pointer(tfont_var_addr)
-­368.26
+Â­368.26
